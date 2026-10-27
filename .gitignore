@@ -1,4 +1,4 @@
-# Flutter/Dart
+# Dart / Flutter
 .dart_tool/
 .packages
 .pub/
@@ -8,9 +8,5 @@ build/
 .metadata
 .idea/
 .vscode/
-android/.gradle/
-android/local.properties
-ios/Pods/
-ios/.symlinks/
-coverage/
 *.iml
+.DS_Store

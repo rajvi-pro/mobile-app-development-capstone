@@ -1,19 +1,19 @@
-# Mobile App Development Capstone (Flutter)
+# Everyday — Flutter Mobile App Capstone Starter
 
-A starter Flutter capstone app with login/signup UI, home and detail screens, favorites, settings, notifications, local persistence, and sample API integration.
+This is a **starter project**, not a guaranteed completed Coursera submission. It includes UI and example implementations for signup/login, home, detail navigation, favourites, settings, local storage, sample API data, and a local notification test.
 
-## Requirements
-- Flutter SDK installed
-- Android Studio or VS Code with Flutter extension
+## Run it
+1. Install Flutter SDK and Android Studio (or use a configured Flutter environment).
+2. Extract this ZIP.
+3. Open the extracted `mobile_app_capstone_starter` folder in VS Code or Android Studio.
+4. Run `flutter pub get`.
+5. Run `flutter run` on an emulator or connected phone.
+6. Test each screen and fix any platform-specific setup issues.
 
-## Run
-1. Extract this project folder.
-2. Open a terminal in this folder.
-3. Run `flutter pub get`
-4. Run `flutter run`
-
-## Important
-This is a starter implementation. Test it on your device/emulator and adapt it to your course rubric before submitting. The authentication screens are UI/demo flows only, not secure production authentication. The API screen uses a public sample endpoint. Capture your own genuine screenshots after running the app; do not submit placeholder screenshots as evidence.
-
-## GitHub upload
-Create a public repository, then upload the extracted project files (not just this ZIP) using GitHub Desktop or GitHub's web upload interface.
+## Important notes
+- Signup/login here are demo validation flows, **not secure real authentication**.
+- API data needs an internet connection.
+- Local notifications may require Android notification permission and platform configuration.
+- Do not submit screenshots from a mockup as proof of running functionality. Run the app and capture genuine screenshots for the Coursera evidence requirements.
+- The Android/iOS platform folders are not included in this ZIP. If needed, create them from this directory with `flutter create .` after installing Flutter.
+- Review and adapt the code yourself before submitting.
